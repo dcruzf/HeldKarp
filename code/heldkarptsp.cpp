@@ -51,7 +51,7 @@ pair < double, vector<int> > HeldKarp(const vector<vector<double>> distance) {
 
     vector <int> path(n+1, 0);
     value = best;
-    for (int i=n-1; i > 0; i--) {
+    for (int i=1; i < n; i++) {
         path[i] = value.second;
         key = to_string(bits) + to_string(path[i]);
         value = umap[key];
