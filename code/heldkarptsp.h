@@ -3,8 +3,6 @@
 
 #include <vector>
 
-using namespace std;
-
-pair < double, vector<int> > HeldKarp(const vector<vector<double>> distance);
+std::pair < double, std::vector<int> > HeldKarp(const std::vector<std::vector<double>> distance);
 
 #endif

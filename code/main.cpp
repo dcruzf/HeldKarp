@@ -83,7 +83,7 @@ int main() {
     cout << "Path: "; 
         for (auto node : result.second) {
         cout << node << " ";
-    cout << endl;
-    }
+        }
+            cout << endl;
     return 0;
 }

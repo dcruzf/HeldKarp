@@ -3,8 +3,6 @@
 
 #include <vector>
 
-using namespace std;
-
-vector<vector<double>> tomatrix(vector<double> dist, int sinze);
+std::vector< std::vector< double > > tomatrix(std::vector< double > dist, int sinze);
 
 #endif

@@ -3,8 +3,6 @@
 
 #include <vector>
 
-using namespace std;
-
-const vector< vector<int> > combinations(int start, int end, int r);
+const std::vector< std::vector<int> > combinations(int start, int end, int r);
 
 #endif
